@@ -1,0 +1,328 @@
+.center{
+  background-image: url("/Users/anshuanand/Desktop/netflixbg.jpeg");
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  
+  
+}
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+.header .logo{
+ width: 200px;
+ height: 100px;
+}
+.header img {
+ width: 100%;
+ height: 100%;
+}
+.header .headbutton{
+  margin: auto 40px;
+}
+.header button{
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border: 1px solid transparent;
+  font-size: 15px;
+  width: 80px;
+  border-radius: 5px;
+  font-size: 18px;
+  
+}
+.center .centertext{
+  position: absolute;
+  top: 35%; 
+  left: 30%;
+}
+.center .centertext p {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0px;
+  text-shadow: 2px 2px #ff0000;
+}
+.center .centertext h4 {
+color: white;
+font-size: 30px;
+font-weight: 400;
+margin: 20px 0px;
+}
+.center .centertext h5 {
+color: white;
+font-size: 20px;
+font-weight: 400;
+margin: 20px 0px;
+}
+.center .centertext .input {
+ width: 600px;
+ height: 50px;
+ display: flex;
+ margin: 20px 0px;
+}
+.center .centertext .input input {
+  width: 500px;
+  border: 1px solid transparent;
+  font-size: 18px;
+}
+.center .centertext .input input::placeholder {
+  padding: 0px 0px 0px 20px;
+}
+.center .centertext button {
+  width: 130px;
+  background-color: red;
+  color: white;
+  border: 1px solid transparent;
+  font-size: 18px;
+  height: 50px;
+}
+.first{
+  width: 100%;
+  height: 70vh;
+  border: 10px solid rgb(31, 31, 31);
+  box-sizing: border-box;
+  display: flex;
+  background-color: black;
+  position: relative;
+}
+.first .left{
+ width: 50%;
+ height: 60vh;
+ text-align: center;
+ padding: 120px 0px 120px 180px;
+ text-align: left;
+}
+.first .right {
+  width: 50%;
+  height: 60vh;
+}
+.first .right img {
+  width: 100%;
+  height: 100%;
+  
+}
+.first .left h1{
+  color: white ;
+  font-size: 55px;
+  margin: 5px;
+}
+.first .left p {
+  color: white;
+  font-size: 25px;
+  margin: 5px;
+}
+.accord{
+  width: 100%;
+  height: 100vh;
+  padding: 20px 20% 20px 20%;
+  text-align: center;
+  color: white;
+  background-color: black;
+} 
+.accord h1{
+  font-size: 55px;
+  margin: 50px;
+}
+.accord .main{
+ color: white;
+ background-color: #ff0000;
+}
+.footer{
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  color: white;
+  padding: 50px 10%;
+  box-sizing: border-box;
+  text-align: left;
+  border: 10px solid rgb(27, 27, 27);
+}
+.footer h2{
+  font-size: 17px;
+  font-weight: 400;
+}
+.footer .vertical{
+  display: flex;
+  justify-content: space-around;
+}
+.footer .vertical .one{
+  margin: 35px;
+}
+.footer .vertical .one h4 {
+  font-size: 15px;
+}
+.signin{
+  background-image: url("/Users/anshuanand/Desktop/netflixbg.jpeg");
+    width: 100%;
+    height: 140vh;
+    position: relative;
+}
+.signin .box{
+  width: 400px;
+  height: 550px;
+  position: absolute;
+  top: 13%;
+  left: 35%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 6% 40px;
+}
+.box .boxheader h2{
+ font-size: 35px;
+ margin: 10px 0px;
+}
+.box .input input {
+ width: 300px;
+ margin: 20px 0px;
+ height: 50px;
+ border: 1px solid transparent;
+ background-color: rgb(28, 27, 27);
+}
+.box .bigbutton button {
+  width: 100%;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border: 1px solid transparent;
+}
+.box .bigbutton .lower {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+  color: grey;
+  line-height: auto;
+} 
+.base{
+  display: flex;
+  justify-content: space-evenly;
+}
+.base .sign h5{
+  color: gray;
+}
+.foot{
+  width: 100%;
+  height: 40vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 100vh;
+  color: white;
+    padding: 50px 10%;
+    box-sizing: border-box;
+    text-align: left;
+}
+.foot h2 {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.foot .vertical {
+  display: flex;
+  justify-content: space-around;
+}
+
+.foot .vertical .one {
+  margin: 35px;
+}
+.foot .vertical .one h4 {
+  font-size: 15px;
+}
+.movies .header1 {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+.movies .header1 .logo {
+  width: 200px;
+  height: 100px;
+}
+
+.movies .header1 img {
+  width: 100%;
+  height: 100%;
+}
+.movies .center1{
+  background-color: rgb(17, 17, 17);
+  width: 100%;
+  height: fit-content;
+}
+.move{
+  width: 100%;
+  height: 350px;
+  padding: 5px 20px;
+  position: relative;
+}
+.move .arrow .back{
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  color: white;
+}
+
+.move .arrow .forward {
+ position: absolute;
+  top: 50%;
+  right: 0px;
+  color: white;
+}
+.move .head1{
+  margin: 10px 0px;
+}
+.move .head1 h1{
+ color: white;
+ font-size: 25px;
+}
+.move .row {
+ display: grid;
+grid-template-columns: repeat(30, 1fr);
+ overflow: hidden;
+}
+.move .row .box1{
+ width: 200px;
+ height: 200px;
+}
+.move .row .box1 img {
+ width: 100%;
+ height: 230px;
+}
+.row .raye{
+  width: 220px;
+  height: 270px;
+}
+.raye .name{
+  margin-top: 30px;
+  text-align: center;
+}
+.raye .name h1 {
+ font-size: 20px;
+ color: white;
+}
+.accord{
+  width: 100%;
+  height: 120vh;
+  box-sizing: border-box;
+}
+.accord .questions{
+  background-color: white;
+  padding: 10px;
+  color: black;
+}
+.accord .questions .head1 {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.accord .questions .head1 .icon {
+  margin: 20px;
+}
