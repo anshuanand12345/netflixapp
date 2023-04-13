@@ -13,7 +13,7 @@ const Jan = (props) => {
     const [movies, setMovies] = useState([]);
 
     const fetchtable = async () => {
-        const result = await axios.get(`http://www.omdbapi.com/?apikey=487dbaec&s=avengers`);
+        const result = await axios.get(`https://www.omdbapi.com/?apikey=487dbaec&s=avengers`);
         setMovies(result.data.Search);
         console.log(result.data.Search);
     }
