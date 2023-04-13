@@ -13,7 +13,7 @@ const Row = (props) => {
 const [ movies, setMovies ] = useState([]);
 
     const fetchtable = async () => {
-        const result = await axios.get(`http://www.omdbapi.com/?apikey=487dbaec&s=titanic`);
+        const result = await axios.get(`https://www.omdbapi.com/?apikey=487dbaec&s=titanic`);
         setMovies(result.data.Search);
         console.log(result.data.Search);
     }
